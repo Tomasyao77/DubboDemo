@@ -1,0 +1,10 @@
+[INFO] [2019-03-19 08:23:54] [com.alibaba.dubbo.config.AbstractConfig$1.run(AbstractConfig.java:450)]
+	 [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-19 08:23:54] [com.alibaba.dubbo.registry.support.AbstractRegistryFactory.destroyAll(AbstractRegistryFactory.java:63)]
+	 [DUBBO] Close all registries [zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?application=app-user2&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&pid=8982&timestamp=1552913426946], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-19 08:23:54] [com.alibaba.dubbo.registry.support.AbstractRegistry.destroy(AbstractRegistry.java:485)]
+	 [DUBBO] Destroy registry:zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?application=app-user2&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&pid=8982&timestamp=1552913426946, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-19 08:23:54] [com.alibaba.dubbo.registry.support.AbstractRegistry.unregister(AbstractRegistry.java:312)]
+	 [DUBBO] Unregister: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-19 08:23:54] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:82)]
+	Terminate ZkClient event thread.

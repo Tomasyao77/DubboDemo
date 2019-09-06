@@ -1,0 +1,1169 @@
+[WARN] [2019-03-19 08:17:42] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 20001ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:17:42] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 20001ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:17:42] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (Disconnected)
+[INFO] [2019-03-19 08:17:43] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:43] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:43] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:45] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:45] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:45] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:47] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:47] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:47] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:49] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:49] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:49] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:50] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:50] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:50] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:52] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:52] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:52] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:53] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:53] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:53] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:55] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:55] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:55] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:57] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:57] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:57] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:17:58] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:17:58] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:17:58] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:18:00] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:18:00] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:18:00] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:18:02] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:18:02] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:18:02] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:18:04] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:18:04] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:18:04] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:18:05] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:18:05] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:18:05] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:18:06] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:18:06] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:18:06] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:18:08] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:18:08] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:18:11] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:18:11] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:18:12] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:18:12] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:18:13] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:18:13] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:18:15] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:18:16] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:18:18] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:18:19] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:18:21] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:18:51] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 31947ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:18:51] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 31947ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:18:52] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:19:22] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 31055ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:19:22] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 31055ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:19:24] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:24] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:24] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:25] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:25] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:25] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:27] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:27] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:27] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:28] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:28] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:28] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:30] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:30] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:30] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:31] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:31] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:31] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:32] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:32] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:32] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:34] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:34] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:34] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:36] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:36] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:36] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:37] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:37] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:37] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:39] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:39] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:39] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:40] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:40] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:40] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:42] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:42] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:42] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:43] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:43] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:43] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:45] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:45] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:45] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:47] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:47] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:47] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:49] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:19:49] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:19:49] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:19:50] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:19:50] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:19:52] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:19:55] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:19:56] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:19:56] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:19:57] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:19:58] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:20:00] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:20:01] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:20:02] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:20:05] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:20:07] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:20:37] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 31750ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:20:37] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 31750ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:20:39] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:21:09] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 31226ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:21:09] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 31226ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:21:10] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:21:40] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 31688ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:21:40] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 31688ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:21:42] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:22:12] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 31979ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:22:12] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 31979ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:22:14] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:14] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:14] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:16] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:16] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:16] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:17] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:17] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:17] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:19] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:19] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:19] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:20] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:20] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:20] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:22] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:22] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:22] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:23] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:23] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:23] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:25] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:25] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:25] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:26] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:26] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:26] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:28] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:28] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:28] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:30] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:30] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:30] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:32] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:32] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:32] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:33] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:33] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:33] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:35] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:35] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:35] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:37] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:37] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:37] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:38] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:38] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:38] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:40] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:40] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:40] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:41] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:41] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:41] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:43] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:43] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:43] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:45] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:45] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:45] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:46] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:46] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:46] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:48] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:48] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:48] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:50] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:50] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:50] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:52] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:52] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:52] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:54] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:54] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:54] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:56] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:56] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:56] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:57] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:57] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:57] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:22:59] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:22:59] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:22:59] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:23:00] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:23:00] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:23:02] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:23:05] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:23:07] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:23:07] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:23:08] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:23:11] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:23:13] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:23:16] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+[INFO] [2019-03-19 08:23:17] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[WARN] [2019-03-19 08:23:47] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1111)]
+	Client session timed out, have not heard from server in 31347ms for sessionid 0x1036a73ca48006a
+[INFO] [2019-03-19 08:23:47] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1159)]
+	Client session timed out, have not heard from server in 31347ms for sessionid 0x1036a73ca48006a, closing socket connection and attempting reconnect
+[INFO] [2019-03-19 08:23:49] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:23:49] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:23:49] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:23:50] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:23:50] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:23:50] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:23:52] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:23:52] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:23:52] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:23:53] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[ERROR] [2019-03-19 08:23:53] [org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:289)]
+	Unable to open socket to 118.126.96.78/118.126.96.78:2181
+[WARN] [2019-03-19 08:23:53] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca48006a for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.SocketException: 网络不可达
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.registerAndConnect(ClientCnxnSocketNIO.java:277)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.connect(ClientCnxnSocketNIO.java:287)
+	at org.apache.zookeeper.ClientCnxn$SendThread.startConnect(ClientCnxn.java:1027)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1063)
+[INFO] [2019-03-19 08:23:54] [com.alibaba.dubbo.config.AbstractConfig$1.run(AbstractConfig.java:450)]
+	 [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-19 08:23:54] [com.alibaba.dubbo.registry.support.AbstractRegistryFactory.destroyAll(AbstractRegistryFactory.java:63)]
+	 [DUBBO] Close all registries [zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?application=app-user1&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&pid=8982&timestamp=1552913424019], dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-19 08:23:54] [com.alibaba.dubbo.registry.support.AbstractRegistry.destroy(AbstractRegistry.java:485)]
+	 [DUBBO] Destroy registry:zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?application=app-user1&dubbo=2.5.3&interface=com.alibaba.dubbo.registry.RegistryService&pid=8982&timestamp=1552913424019, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-19 08:23:54] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:82)]
+	Terminate ZkClient event thread.

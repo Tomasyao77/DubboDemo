@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="edu.whut.tomasyao.user.mapper.UserMapper">
+    <!--暂时不使用缓存-->
+    <!--<cache eviction="LRU" flushInterval="60000" size="1024" readOnly="true"/>-->
+
+    <resultMap id="getUserRM" type="edu.whut.tomasyao.user.vo.UserVo">
+        <id property="id" column="id"/>
+        <result property="num" column="num"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+    <select id="getUser" resultMap="getUserRM">
+		select * from dd_product d where d.id=#{0}
+	</select>
+
+
+</mapper>

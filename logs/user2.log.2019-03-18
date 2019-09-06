@@ -1,0 +1,1028 @@
+[INFO] [2019-03-18 20:11:17] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:11:17] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:11:17 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:11:17] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:11:17] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:11:17] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:11:17] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 482 ms
+[INFO] [2019-03-18 20:11:17] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:11:17] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:11:17 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:11:17] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:11:17] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:11:17] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=provider&timestamp=1552911074469}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:11:17] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@583b5c2f
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:11:17] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca48005a, negotiated timeout = 30000
+[INFO] [2019-03-18 20:11:17] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:11:17] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:11:17] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:11:18] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=provider&timestamp=1552911074469, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:11:18] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x86e5066e, /10.120.254.120:47594 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:11:18] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:11:18] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:11:18] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:11:18] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:11:17 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:11:18] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:11:17 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:11:18] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1216 ms
+[INFO] [2019-03-18 20:15:22] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:11:17 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:15:22] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:11:17 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:15:22] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:22] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0x86e5066e, /10.120.254.120:47594 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:22] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=4540&side=consumer&timestamp=1552911077744, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:46] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:15:46] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:15:46 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:15:46] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:15:46] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:15:46] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:15:46] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 565 ms
+[INFO] [2019-03-18 20:15:46] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:15:46] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:15:46 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:15:46] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:15:46] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:15:47] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=provider&timestamp=1552911343785}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:15:47] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@27a551dd
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:15:47] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca48005c, negotiated timeout = 30000
+[INFO] [2019-03-18 20:15:47] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:15:47] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:47] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:47] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=provider&timestamp=1552911343785, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:47] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x4571956e, /10.120.254.120:47750 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:47] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:47] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:15:47] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:15:48] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:15:46 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:15:48] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:15:46 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:15:48] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1391 ms
+[INFO] [2019-03-18 20:17:01] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:15:46 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:17:01] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:15:46 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:17:01] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:01] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0x4571956e, /10.120.254.120:47750 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:01] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5139&side=consumer&timestamp=1552911346968, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:10] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:17:10] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:17:10 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:17:10] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:17:10] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:17:10] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:17:21] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:17:21] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:17:21 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:17:21] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:17:21] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:17:21] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:17:22] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 547 ms
+[INFO] [2019-03-18 20:17:22] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:17:22] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:17:22 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:17:22] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:17:22] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:17:22] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=provider&timestamp=1552911439503}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:17:22] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@43203c38
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:17:22] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca48005f, negotiated timeout = 30000
+[INFO] [2019-03-18 20:17:22] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:17:22] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:22] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:23] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5544&side=provider&timestamp=1552911427776, dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=provider&timestamp=1552911439503, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:23] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x7b73442a, /10.120.254.120:47864 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:23] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:23] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:17:23] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:17:23] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:17:22 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:17:23] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:17:22 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:17:23] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1305 ms
+[INFO] [2019-03-18 20:17:38] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=provider&timestamp=1552911439503], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:43] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:17:22 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:18:43] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:17:21 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:18:43] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:43] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0x7b73442a, /10.120.254.120:47864 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:43] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:43] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548, urls: [empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=5716&side=consumer&timestamp=1552911442548], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:56] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:18:56] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:18:56 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:18:56] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:18:56] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:18:56] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:18:56] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 505 ms
+[INFO] [2019-03-18 20:18:56] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:18:56] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:18:56 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:18:56] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:18:56] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:18:56] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=provider&timestamp=1552911533768}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:18:56] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@254701d5
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:18:56] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca480061, negotiated timeout = 30000
+[INFO] [2019-03-18 20:18:56] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:18:56] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:57] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:57] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=provider&timestamp=1552911533768, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:57] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x305340ee, /10.120.254.120:47956 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:57] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:57] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:18:57] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:18:57] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:18:56 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:18:57] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:18:56 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:18:57] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1346 ms
+[INFO] [2019-03-18 20:24:36] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:18:56 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:24:36] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:18:56 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:24:36] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:36] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0x305340ee, /10.120.254.120:47956 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:36] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6005&side=consumer&timestamp=1552911536827, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:50] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:24:50] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:24:50 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:24:50] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:24:50] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:24:50] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:24:50] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 600 ms
+[INFO] [2019-03-18 20:24:50] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:24:50] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:24:50 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:24:50] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:24:50] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:24:51] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=provider&timestamp=1552911887505}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:24:51] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@70f79ce3
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:24:51] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca480063, negotiated timeout = 30000
+[INFO] [2019-03-18 20:24:51] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:24:51] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:51] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:52] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=provider&timestamp=1552911887505, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:52] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xda8b3b2f, /10.120.254.120:48244 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:52] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:52] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:24:52] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:24:52] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:24:50 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:24:52] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:24:50 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:24:52] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1721 ms
+[WARN] [2019-03-18 20:24:56] [com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:112)]
+	 [DUBBO] Decode rpc result failed: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@5e918f2d}, dubbo version: 2.5.3, current host: 192.168.119.1
+java.io.IOException: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@5e918f2d}
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:94)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN] [2019-03-18 20:24:56] [com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:112)]
+	 [DUBBO] Decode rpc result failed: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@795ca8d2}, dubbo version: 2.5.3, current host: 192.168.119.1
+java.io.IOException: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@795ca8d2}
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:94)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN] [2019-03-18 20:24:56] [com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:112)]
+	 [DUBBO] Decode rpc result failed: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@2dd26c99}, dubbo version: 2.5.3, current host: 192.168.119.1
+java.io.IOException: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@2dd26c99}
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:94)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN] [2019-03-18 20:25:04] [com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:112)]
+	 [DUBBO] Decode rpc result failed: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@636b9f22}, dubbo version: 2.5.3, current host: 192.168.119.1
+java.io.IOException: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@636b9f22}
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:94)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN] [2019-03-18 20:25:04] [com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:112)]
+	 [DUBBO] Decode rpc result failed: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@2e89ff57}, dubbo version: 2.5.3, current host: 192.168.119.1
+java.io.IOException: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@2e89ff57}
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:94)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN] [2019-03-18 20:25:04] [com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:112)]
+	 [DUBBO] Decode rpc result failed: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@34a0608}, dubbo version: 2.5.3, current host: 192.168.119.1
+java.io.IOException: Response data error, expect Throwable, but get {cause=(this Map), suppressedExceptions=[], detailMessage= 11 , stackTrace=[Ljava.lang.StackTraceElement;@34a0608}
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:94)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DecodeableRpcResult.decode(DecodeableRpcResult.java:109)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.decodeBody(DubboCodec.java:97)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:126)
+	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.decode(ExchangeCodec.java:87)
+	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.decode(DubboCountCodec.java:46)
+	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalDecoder.messageReceived(NettyCodecAdapter.java:134)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] [2019-03-18 20:32:44] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:24:50 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:32:44] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:24:50 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:32:44] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:32:44] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0xda8b3b2f, /10.120.254.120:48244 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:32:44] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=6577&side=consumer&timestamp=1552911890994, dubbo version: 2.5.3, current host: 192.168.119.1
+[WARN] [2019-03-18 20:32:44] [org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1165)]
+	Session 0x1036a73ca480063 for server 118.126.96.78/118.126.96.78:2181, unexpected error, closing socket connection and attempting reconnect
+java.lang.NoClassDefFoundError: org/apache/zookeeper/proto/WatcherEvent
+	at org.apache.zookeeper.ClientCnxn$SendThread.readResponse(ClientCnxn.java:770)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:94)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1144)
+Caused by: java.lang.ClassNotFoundException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.zookeeper.proto.WatcherEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1315)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1178)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1139)
+	... 4 more
+Caused by: java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [org.apache.zookeeper.proto.WatcherEvent]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1325)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1313)
+	... 6 more
+[INFO] [2019-03-18 20:32:44] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (Disconnected)
+[INFO] [2019-03-18 20:32:59] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:32:59] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:32:59 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:32:59] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:32:59] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:32:59] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:32:59] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 533 ms
+[INFO] [2019-03-18 20:32:59] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:32:59] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:32:59 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:32:59] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:32:59] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:32:59] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=provider&timestamp=1552912376806}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:32:59] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3162fda2
+[INFO] [2019-03-18 20:32:59] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:33:00] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:33:00] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca480065, negotiated timeout = 30000
+[INFO] [2019-03-18 20:33:00] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:33:00] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:33:00] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:33:00] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=provider&timestamp=1552912376806, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:33:00] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x0ba2a3b4, /10.120.254.120:48540 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:33:00] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:33:00] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:33:00] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:33:00] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:32:59 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:33:00] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:32:59 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:33:00] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1265 ms
+[INFO] [2019-03-18 20:38:51] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:32:59 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:38:51] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:32:59 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:38:51] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:38:51] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0x0ba2a3b4, /10.120.254.120:48540 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:38:51] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=7483&side=consumer&timestamp=1552912379915, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:39:00] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:39:00] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:39:00 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:39:00] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:39:00] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:39:01] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:39:01] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 485 ms
+[INFO] [2019-03-18 20:39:01] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:39:01] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:39:01 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:39:01] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:39:01] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:39:01] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=provider&timestamp=1552912738398}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:39:01] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1742be32
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:39:01] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca480067, negotiated timeout = 30000
+[INFO] [2019-03-18 20:39:01] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:39:01] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:39:01] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:39:02] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=provider&timestamp=1552912738398, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:39:02] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x48d33bc8, /10.120.254.120:48858 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:39:02] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:39:02] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:39:02] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:39:02] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:39:01 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:39:02] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:39:01 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:39:02] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1264 ms
+[INFO] [2019-03-18 20:43:37] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:39:01 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:43:37] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:39:00 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:43:37] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:37] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0x48d33bc8, /10.120.254.120:48858 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:37] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8004&side=consumer&timestamp=1552912741531, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:47] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:43:47] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:43:47 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:43:47] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:43:47] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:43:47] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:43:48] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 529 ms
+[INFO] [2019-03-18 20:43:48] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:43:48] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:43:48 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:43:48] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:43:48] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:43:48] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=provider&timestamp=1552913025162}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:43:48] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@eff6ea2
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:43:48] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca480069, negotiated timeout = 30000
+[INFO] [2019-03-18 20:43:48] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:43:48] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:48] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:48] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=provider&timestamp=1552913025162, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:48] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xcd6ac082, /10.120.254.120:49000 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:48] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:48] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:43:49] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:43:49] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:43:48 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:43:49] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:43:48 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:43:49] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1201 ms
+[INFO] [2019-03-18 20:50:17] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:43:48 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:50:17] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:43:47 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:50:17] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:17] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0xcd6ac082, /10.120.254.120:49000 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:17] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8325&side=consumer&timestamp=1552913028286, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:26] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:305)]
+	Root WebApplicationContext: initialization started
+[INFO] [2019-03-18 20:50:26] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing Root WebApplicationContext: startup date [Mon Mar 18 20:50:26 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:50:26] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+[INFO] [2019-03-18 20:50:26] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dubbo.xml]
+[INFO] [2019-03-18 20:50:26] []
+	using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+[INFO] [2019-03-18 20:50:26] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:345)]
+	Root WebApplicationContext: initialization completed in 479 ms
+[INFO] [2019-03-18 20:50:26] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:487)]
+	FrameworkServlet 'dispatcher': initialization started
+[INFO] [2019-03-18 20:50:26] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)]
+	Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:50:26 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:50:26] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)]
+	Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+[INFO] [2019-03-18 20:50:26] [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:341)]
+	Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2019-03-18 20:50:26] [com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)]
+	 [DUBBO] Load registry store file /home/zouy/.dubbo/dubbo-registry-118.126.96.78.cache, data: {edu.whut.tomasyao.dubbo.IDubboUser1Service=empty://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=provider&timestamp=1552913424050}, dubbo version: 2.5.3, current host: 127.0.0.1
+[INFO] [2019-03-18 20:50:26] [org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)]
+	Starting ZkClient event thread.
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:zookeeper.version=3.4.11-37e277162d567b55a07d1755f0b31c32e93c01a0, built on 11/01/2017 18:06 GMT
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:host.name=zouy-QTK5
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.version=1.8.0_121
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.vendor=Oracle Corporation
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.home=/home/zouy/install/jdk/jre
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.class.path=/home/zouy/install/tomcat/bin/bootstrap.jar:/home/zouy/install/tomcat/bin/tomcat-juli.jar
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.library.path=/home/zouy/install/idea-IU-163.12024.16/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.io.tmpdir=/home/zouy/install/tomcat/temp
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:java.compiler=<NA>
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.name=Linux
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.arch=amd64
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:os.version=4.2.0-27-generic
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.name=zouy
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.home=/home/zouy
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.Environment.logEnv(Environment.java:100)]
+	Client environment:user.dir=/home/zouy/install/tomcat/bin
+[INFO] [2019-03-18 20:50:26] [org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:441)]
+	Initiating client connection, connectString=118.126.96.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@51bc4e1f
+[INFO] [2019-03-18 20:50:27] [org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1035)]
+	Opening socket connection to server 118.126.96.78/118.126.96.78:2181. Will not attempt to authenticate using SASL (unknown error)
+[INFO] [2019-03-18 20:50:27] [org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:877)]
+	Socket connection established to 118.126.96.78/118.126.96.78:2181, initiating session
+[INFO] [2019-03-18 20:50:27] [org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1302)]
+	Session establishment complete on server 118.126.96.78/118.126.96.78:2181, sessionid = 0x1036a73ca48006b, negotiated timeout = 30000
+[INFO] [2019-03-18 20:50:27] [org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)]
+	zookeeper state changed (SyncConnected)
+[INFO] [2019-03-18 20:50:27] [com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)]
+	 [DUBBO] Register: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=consumers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:27] [com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)]
+	 [DUBBO] Subscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:27] [com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)]
+	 [DUBBO] Notify urls for subscribe url consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, urls: [dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user1&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=provider&timestamp=1552913424050, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=configurators&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, empty://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:27] [com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)]
+	 [DUBBO] Successed connect to server /10.120.254.120:20880 from NettyClient 192.168.119.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xf24efac9, /10.120.254.120:49308 => /10.120.254.120:20880]], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:27] [com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)]
+	 [DUBBO] Start NettyClient /192.168.119.1 connect to the server /10.120.254.120:20880, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:27] [com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)]
+	 [DUBBO] Refer dubbo service edu.whut.tomasyao.dubbo.IDubboUser1Service from url zookeeper://118.126.96.78:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=app-user2&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:27] [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:534)]
+	Mapped "{[/test/test],methods=[POST]}" onto public java.util.Map edu.whut.tomasyao.user.controller.User1TestController.getOneUser1Test(javax.servlet.http.HttpServletRequest,int)
+[INFO] [2019-03-18 20:50:27] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:50:26 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:50:27] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:539)]
+	Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:50:26 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:50:27] [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:506)]
+	FrameworkServlet 'dispatcher': initialization completed in 1184 ms
+[INFO] [2019-03-18 20:50:55] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 18 20:50:26 CST 2019]; parent: Root WebApplicationContext
+[INFO] [2019-03-18 20:50:55] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:960)]
+	Closing Root WebApplicationContext: startup date [Mon Mar 18 20:50:26 CST 2019]; root of context hierarchy
+[INFO] [2019-03-18 20:50:55] [com.alibaba.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:343)]
+	 [DUBBO] Unsubscribe: consumer://192.168.119.1/edu.whut.tomasyao.dubbo.IDubboUser1Service?application=app-user2&category=providers,configurators,routers&check=false&dubbo=2.5.3&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:55] [com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:135)]
+	 [DUBBO] Close netty channel [id: 0xf24efac9, /10.120.254.120:49308 => /10.120.254.120:20880], dubbo version: 2.5.3, current host: 192.168.119.1
+[INFO] [2019-03-18 20:50:55] [com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)]
+	 [DUBBO] disconected from /10.120.254.120:20880,url:dubbo://10.120.254.120:20880/edu.whut.tomasyao.dubbo.IDubboUser1Service?anyhost=true&application=app-user2&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=edu.whut.tomasyao.dubbo.IDubboUser1Service&methods=user1Func&pid=8982&side=consumer&timestamp=1552913426930, dubbo version: 2.5.3, current host: 192.168.119.1
